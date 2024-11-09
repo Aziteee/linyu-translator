@@ -94,7 +94,7 @@ export class Linyu {
     ["曜", ["臭脚曜", "🐭曜"]],
   ]);
 
-  // 淋神词库（不完全，欢迎补充）
+  // 淋神词库
   public static readonly linyuGenshin = new Map<string, string | string[]>([
     ["(珊瑚宫)?心海", ["水母婆", "我❤"]],
     ["可莉", "炸弹婆"],
@@ -111,6 +111,15 @@ export class Linyu {
     ["维嘉", "维嘉大妈"],
 
     ["影罗", "阴罗"],
+  ])
+
+  // 瓦罗淋特词库
+  public static readonly linyuValorant = new Map<string, string | string[]>([
+     ["蝰蛇", "我🐍"],
+     ["暮蝶", "我🦋"],
+     ["钢索", "我🔒"],
+     ["黑梦", "我梦"],
+     ["奇乐", "🐔婆"],
   ])
 
   public static readonly linyuMap = new Map<string, string | string[]>([
