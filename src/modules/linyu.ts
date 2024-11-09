@@ -127,6 +127,7 @@ export class Linyu {
     ...Linyu.linyuWzry,
     ...Linyu.linyuGenshin,
     ...Linyu.linyuStreetFighter,
+    ...Linyu.linyuValorant
   ]);
 
   public static translate(text: string): string {
