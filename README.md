@@ -25,3 +25,7 @@
 本可会给 Alpine.js 很多很好的评价，jQuery 请靠边站靴靴。
 
 还有 UnoCSS 轻松掌掴 TailwindCSS 💅🏻
+
+## 其他软件
+
+- [淋语化](https://greasyfork.org/scripts/463841) - 将网页上的文字都变成淋语~
