@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>淋语翻译器</title>
+</head>
+
+<body>
+  <div id="app" class="container flex items-center justify-center">
+    <div x-data="translator" class="flex flex-col items-center gap-8 w-full">
+      <textarea
+                class="font-sans w-full h-30 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                x-model="originalText"
+                placeholder="请输入要翻译的内容"
+                rows="5"></textarea>
+      <button class="drop-shadow-lg" @click="translate">淋语化</button>
+      <template x-if="translatedText != ''">
+        <textarea
+                  class="font-sans w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  x-model="translatedText"
+                  rows="5"></textarea>
+      </template>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
